@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<!--This is the title that will appear on the tab!-->
+	<title>Some random stuff</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+
+</head>
+
+<script type="text/javascript">
+		
+	$(document).ready(function(){
+    $('#thisisanid').click(function(){
+        $("#thisisanid").animate({left: '100%'}, { duration: 4000, queue: false });
+        // $('#rotate-box').css({
+
+        // //for firefox
+        // "-moz-animation-name":"rotatebox",
+        // "-moz-animation-duration":"0.8s",
+        // "-moz-animation-iteration-count":"1",
+        //     "-moz-animation-fill-mode":"forwards",
+
+        // //for safari & chrome
+        // "-webkit-animation-name":"rotatebox",
+        // "-webkit-animation-duration":"0.8s",
+        // "-webkit-animation-iteration-count":"1",
+        // "-webkit-animation-fill-mode" : "forwards",
+
+        // });
+    });
+});
+</script>
+	<!--This section contains the content of our page!-->
+	<div class="container-fluid" style="padding: 0">
+		<!--This is the first section!-->
+        <div class="row">
+		<!--This is the URL of the background photo-->
+		<div class="col-md-12" style="height:400px; background-image: url(Woodpeckerandmonkey.jpg);background-repeat: no-repeat;background-size: 100% 100%">
+
+			<br>
+			<!--This is the title area of the first block-->
+			<h1 class="text-center display-4" style="padding-top: 10px; color: white;"> Some random stuff<span class="glyphicon glyphicon-cutlery" aria-hidden="true"></span></h1>
+			<h4 class="text-center" style="color:white">Celebrating potatoes!</h4>
+		</div>
+        </div>
+
+		<!--This is th enext colored section-->
+        <div class="row" style="background-color: #32CD32; padding-top: 40px; padding-bottom: 40px">
+            <div class="col-md-1"></div>
+            <div id="thisisanid" class="col-md-3">
+				<!--This is the highlighted photo-->
+                <img src=./Groundhogphotoshop.jpg width="250" height="250">
+                <h3>Click me</h3>
+            </div>
+			<!--This is the area you can add your about text-->
+            <div style="color:white" class="col-md-7 text-center">
+				<br>
+                <h3>Hi, I'm Bob</h3>
+				<p>This website is made in Narnia.</p>
+                <a class="btn btn-default" href="https://www.theguardian.com/technology/2015/oct/13/ada-lovelace-day-computer-programmer-female-tech-pioneers" target="_blank" role="button">Read More About Ada</a>
+            </div>
+			<div class="col-md-1"></div>
+        </div>
+		
+		<!--This is highlights for your portfolio!-->
+		<div class="row" style="background-color: #FF69B4; padding-top: 40px; padding-bottom: 40px">
+			<h2 class="text-center" style="color:white">Celebrating the number 4!</h2>
+			<br>
+            <div class="col-md-2"></div>
+            <div class="col-md-2 text-center">
+	            <a href="https://www.youtube.com/watch?v=Rwf3ZVc32W0">
+					<img src=./hummingduel.jpg style="height:300px" class="img-thumbnail">
+					<h5>The fight of the century</h5>
+					<p>These fellows have defeated all other enemies and are now left with each other!</p>
+				</a>
+			</div>
+            <div class="col-md-2 text-center">
+	            <a href="https://www.youtube.com/watch?v=Rv9hn4IGofM&t=2s">
+					<img src="./ClementToad.jpg" style="height:300px" class="img-thumbnail">>
+					<h5>Tony the Toad</h5>
+					<p>This toad does not like being confused with a turtle</p>
+				</a>
+			</div>
+			<div class="col-md-2 text-center">
+				<a href="https://www.youtube.com/watch?v=EQ1HKCYJM5U">  
+					<img src="Meerkatpuppy.jpg" style="height:300px" class="img-thumbnail">
+					<h5>Dony the doggo</h5>
+					<p>May dabble in meerkatery</p> 
+				</a>
+			</div>
+			<div class="col-md-2 text-center">
+				<a href="https://www.youtube.com/watch?v=EK3Dry0vxyE">
+					<img src="trump.jpg" style="height:300px" class="img-thumbnail">
+					<h5>Evil Clown</h5>
+					<p>Watch out for this guy, he can get grabby</p>
+				</a>
+			</div>
+			<div class="col-md-2"></div>
+        </div>
+
+		<div class="row text-center" style="background-color:#41f4df; padding-top: 40px; padding-bottom: 40px">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+				<p>This website may or may not contain the answer to life the universe and everything!</p>
+			</div>
+			<div class="col-md-1"></div>
+        </div>
+
+
+	</div>
+
+</html>
